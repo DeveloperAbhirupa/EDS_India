@@ -1,0 +1,30 @@
+#navbar{
+  background-color: rgba(0,0,0,0.7) !important;
+  color:white!important;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color:#FFFFFF!important;
+}
+a span{
+  color:#FFFFFF !important;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slide1{
+  background-image: url('../images/pcb3.jpg');
+}
+.slide2{
+  background-image: url('../images/car.jpeg');
+}
+.slide3{
+  background-image: url('../images/rail.jpeg');
+}
