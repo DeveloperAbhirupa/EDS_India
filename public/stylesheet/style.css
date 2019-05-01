@@ -1,3 +1,7 @@
+body{
+ overflow-x: hidden !important;
+}
+
 #navbar{
   background-color: rgba(0,0,0,0.7) !important;
   color:white!important;
@@ -18,13 +22,105 @@ a span{
   -o-background-size: cover;
   background-size: cover;
 }
-
+.navUl{
+  padding-right::
+}
+#slide1logo{
+  margin-top: -70vh;
+  height:50vh;
+  width:auto;
+}
 .slide1{
   background-image: url('../images/pcb3.jpg');
+   background-attachment: fixed;
 }
 .slide2{
-  background-image: url('../images/car.jpeg');
+  background-image: url('../images/car.jpg');
+   background-attachment: fixed;
 }
 .slide3{
-  background-image: url('../images/rail.jpeg');
+  background-image: url('../images/rail.jpg');
+   background-attachment: fixed;
+}
+.lead{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.6vh!important;
+}
+.info{
+  /* padding:5vh; */
+  background-image:url("../images/bg.jpg")!important;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  background-attachment: fixed;
+}
+/* .info:hover{
+  cursor: pointer;
+  box-shadow: black 2px,2px;
+} */
+.col0{
+  padding:5vh;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+}
+.card{
+  margin: auto;
+  background: none;
+  height: 37vh;
+  width:55vh;
+}
+.card:hover{
+  /* font-size: 2.1vh; */
+  cursor: pointer;
+  -moz-box-shadow:    30px 30px 30px #bab9b8;
+  -webkit-box-shadow:  30px 30px 30px #bab9b8;
+  box-shadow:          30px 30px 30px #bab9b8;
+  transition: 0.5s;
+
+}
+.card-footer{
+  background-color: #efefef!important;
+}
+
+.cont2{
+  font-family: 'Roboto Slab', serif;
+}
+.cont2a{
+  margin-top: 10vh;
+  font-family: 'Days One', sans-serif !important;
+  font-size: 8vh!important;
+}
+.cont2b{
+  font-size: 3vh;
+}
+.cont2c{
+
+  margin-top: 18vh;
+  font-size: 5vh;
+    font-family: 'Days One', sans-serif !important;
+    margin-bottom: 10vh;
+}
+.cont2d{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  /* padding-left: 10vh; */
+  padding-right: 10vh;
+}
+
+#bow{
+  width: 50vh!important;
+}
+
+#type{
+  color:red!important;
+}
+#i0{
+  width:200vh;
+  /* position: absolute;*/
+  margin-top: -20vh;
+}
+
+.typing{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
 }
