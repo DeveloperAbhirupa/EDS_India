@@ -54,3 +54,31 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+
+// carousel
+//
+// $(document).ready(function () {
+//   var carousel = $("#waterwheel-carousel").waterwheelCarousel({
+//     horizon: 110,
+//     horizonOffset: 0,
+//     horizonOffsetMultiplier: .7,
+//     activeClassName: "active",
+//     separation: 150,
+//     flankingItems: 1,
+//     keyboardNav: true,
+//     edgeFadeEnabled: true
+//   });
+//
+//         $('#prev').bind('click', function () {
+//           carousel.prev();
+//           return false
+//         });
+//
+//         $('#next').bind('click', function () {
+//           carousel.next();
+//           return false;
+//         });
+//
+//
+//   });
