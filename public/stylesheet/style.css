@@ -48,6 +48,7 @@ a span{
 }
 .info{
   /* padding:5vh; */
+  padding-top: 12vh;
   background-image:url("../images/bg.jpg")!important;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
@@ -63,11 +64,59 @@ a span{
   align-items: center;
   margin: auto;
 }
+.wwd{
+  padding-top: 15vh!important;
+}
 .card{
+  /* margin-top: 20vh; */
   margin: auto;
   background: none;
-  height: 37vh;
-  width:55vh;
+  height: 57vh;
+  width:35vh;
+}
+
+.c1{
+  background-image: url("../images/wwd1.jpg");
+  background-attachment: fixed;
+}
+.c2{
+  background-image: url("../images/wwd2.jpg");
+  background-attachment: fixed;
+  background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.c3{
+  background-image: url("../images/wwd3.jpeg");
+  background-attachment: fixed;
+  background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.c4{
+  background-image: url("../images/wwd4.jpeg");
+  background-attachment: fixed;
+  /* background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; */
+}
+.wwdInner{
+  margin-top: 2svh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  /* margin-left: 5vh!important; */
+  /* margin-right: 5vh!important; */
+  /* border-style: solid;
+  border-radius: 50px;
+  border-width: 1.5px;
+  border-color: blue; */
+  /* padding:8vh;
+  padding-left: 8vh; */
+}
+.wwdHead{
+  font-size: 5vh;
+  font-family: 'Days One', sans-serif !important;
+  text-align: center;
 }
 .card:hover{
   /* font-size: 2.1vh; */
@@ -75,11 +124,13 @@ a span{
   -moz-box-shadow:    30px 30px 30px #bab9b8;
   -webkit-box-shadow:  30px 30px 30px #bab9b8;
   box-shadow:          30px 30px 30px #bab9b8;
+  transform: scale(1.2);
   transition: 0.5s;
 
 }
-.card-footer{
-  background-color: #efefef!important;
+.foot{
+  background-color: rgba(0,0,0,0.6)!important;
+  color:white;
 }
 
 .cont2{
@@ -108,10 +159,6 @@ a span{
   margin-bottom: 20vh;
 }
 
-#bow{
-  width: 50vh!important;
-}
-
 #type{
   color:red!important;
   font-size:2.5vh!important;
@@ -121,7 +168,7 @@ a span{
   font-size:2.5vh!important;
 }
 #i0{
-  width:200vh;
+  width:205vh;
   /* position: absolute;*/
   margin-top: -55vh;
 }
@@ -130,11 +177,22 @@ a span{
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
 }
-
+#about{
+  font-size: 5vh;
+  font-family: 'Days One', sans-serif !important;
+  text-align: center;
+}
+.about_content{
+  margin-top: 5vh;
+  /* padding-right: 5vh; */
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+}
 .clientHead{
   font-size: 5vh;
   font-family: 'Days One', sans-serif !important;
   text-align: center;
+  margin-top: 15vh;
 }
 
 .clt0{
@@ -156,57 +214,84 @@ a span{
   margin-top: 10vh;
 }
 
+/* flip card--------------------- */
+.contCard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items:center;
+}
 
-/* carousel 3d */
-/* .carousel-3d{
-  position: relative;
-  width: 20px;
-  height: 20px;
-  background-color: #2d4aff;
-  margin: 200px auto;
 
-  .carousel-item{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 300px;
-    height: 200px;
-    margin-left: -150px;
-    margin-top: -100px;
-    background-size: cover;
-  }
-
-  .carousel-item:nth-child(1){
-      background-image: url(http://news.cctvnews.cn/news/3d457a4d3149544d/img/73233fb6-0afe-41d7-900d-ae3e2d088313.jpg);
-    }
-
-  .carousel-item:nth-child(2){}
-      background-image: url(http://news.cctvnews.cn/news/3d55444e3249544d/img/ea65c16b-1a90-47ba-9997-46ddf0a7a32f.jpg);
-    }
-
-  .carousel-item:nth-child(3){
-      background-image:url(http://news.cctvnews.cn/news/3d55444e3249544d/img/c91d9953-7b36-4da4-9174-7574b8239e2c.jpg);
-    }
-
-  .carousel-item:nth-child(4){
-      background-image:url(http://news.cctvnews.cn/news/3d676a4d7949544d/img/b0c3e3c3-0161-4f15-bcd4-4380a3ca0bd2.jpg);
-    }
-
-*/
-/* #waterwheel-carousel {
-  width:1200px;
-  height:650px;
+.imageCard{
+	margin: 10% 5%;
+	border-radius: 50%;
+	border: 4px solid silver;
+}
+.inner-container {
+  perspective: 900px;
+  padding: 0 10%;
+}
+.main {
+  width:300px;
+  height:300px;
   position:relative;
-  clear:both;
-  overflow:hidden;
-  margin:0 auto;
+  margin: 50px auto;
+  transition:all .5s ease-in-out;
+  transform-style:preserve-3d;
 }
-#waterwheel-carousel img {
-  visibility:hidden; 
-  cursor:pointer;
+.main:hover {
+  transform: rotateY(180deg);
+  box-shadow: 20px 20px 20px #d4d6d8;
+}
+.main div {
+  position: absolute;
+  top: 5%;
+  left:0;
+  width: 100%;
+  height:100%;
+  /* font-size: 30px;*/
+
+  /* border-radius: 25px; */
+}
+.name{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.3vh!important;
+  padding:10px;
+}
+.bio{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  padding:10px;
+  text-align: left;
+}
+.front {
+  z-index:2;
+  text-align:center;
+  line-height:300px;
+  color: silver;
+  background-color: white;
+  backface-visibility: hidden;
+  border-style: solid;
+  border-width: 0.5px;
+  box-shadow: 10px 10px 10px #d4d6d8;
+  /* box-shadow: 0px -2px 0px 0px 	rgba(150, 252, 253, 1.0), 2px 8px 25px -10px rgba(0,0,0,0.75); */
+}
+.back {
+  z-index:1;
+  border-style: solid;
+  border-width: 0.5px;
+
+  background-color: white;
+  transform: rotateY(180deg);
+  backface-visibility: visible;
+  /* box-shadow: 0px -2px 0px 0px rgba(211, 150, 253, 1.0), 2px 8px 25px -10px rgba(0,0,0,0.75); */
 }
 
-.carouselimg{
-  width:400px;
-  height:600px;
-} */
+.section2{
+  background-image:url("../images/bg2.jpg")!important;
+  /* background-attachment: fixed; */
+}
+.partners{
+  padding-right: 10vh!important;
+}

@@ -1,0 +1,85 @@
+body{
+ overflow-x: hidden !important;
+}
+#navbar{
+  background-color: rgba(0,0,0,0.7) !important;
+  color:white!important;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color:#FFFFFF!important;
+}
+a span{
+  color:#FFFFFF !important;
+}
+.pagefooter{
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  color: white;
+  padding:4vh;
+
+}
+.copyright{
+  margin-top: 10vh;
+}
+
+.flexGal{
+  margin-top: 10vh !important;
+}
+.row2{
+  margin-top: -5vh;
+}
+.c1,.c2,.c3,.c4{
+  height:30vh!important;
+}
+.feat1gal{
+  margin-top: 2vh;
+
+}
+.feat1Head{
+  font-size: 5vh;
+  font-family: 'Days One', sans-serif !important;
+  text-align: center;
+  margin-top: 10vh;
+}
+.card{
+  -moz-box-shadow:    20px 30px 30px #bab9b8!important;
+  -webkit-box-shadow:  20px 30px 30px #bab9b8!important;
+  box-shadow:          20px 30px 30px #bab9b8!important;
+}
+.card:hover{
+  /* font-size: 2.1vh; */
+  cursor: pointer;
+  -moz-box-shadow:    30px 30px 30px #bab9b8;
+  -webkit-box-shadow:  30px 30px 30px #bab9b8;
+  box-shadow:          30px 30px 30px #bab9b8;
+  transform: scale(1.12);
+  transition: 0.5s;
+
+}
+.c1{
+  background-image: url("../images/P6_IVD.jpg");
+  /* background-attachment: fixed; */
+  background-size: contain;
+  background-size: cover;
+}
+.c2{
+  background-image: url("../images/P10_IVD.jpg");
+  background-size: contain;
+  background-size: cover;
+}
+.c3{
+  background-image: url("../images/P10_OVD.jpg");
+  background-size: contain;
+  background-size: cover;
+}
+.c4{
+  background-image: url("../images/P16_OVD.jpg");
+  background-size: contain;
+    background-size: cover;
+}
+.foot{
+  background-color: rgba(0,0,0,0.6)!important;
+  color:white;
+}
