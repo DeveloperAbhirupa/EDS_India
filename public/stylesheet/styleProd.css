@@ -2,7 +2,7 @@ body{
  overflow-x: hidden !important;
 }
 #navbar{
-  background-color: rgba(0,0,0,0.7) !important;
+  background-color: rgba(0,0,0) !important;
   color:white!important;
   font-family: 'Montserrat', sans-serif;
 }
@@ -41,14 +41,14 @@ a span{
   font-size: 5vh;
   font-family: 'Days One', sans-serif !important;
   text-align: center;
-  margin-top: 10vh;
+  margin-top: 15vh;
 }
-.card{
+.c1,.c2,.c3,.c4{
   -moz-box-shadow:    20px 30px 30px #bab9b8!important;
   -webkit-box-shadow:  20px 30px 30px #bab9b8!important;
   box-shadow:          20px 30px 30px #bab9b8!important;
 }
-.card:hover{
+.c1:hover,.c2:hover,.c3:hover,.c4:hover{
   /* font-size: 2.1vh; */
   cursor: pointer;
   -moz-box-shadow:    30px 30px 30px #bab9b8;
@@ -79,7 +79,116 @@ a span{
   background-size: contain;
     background-size: cover;
 }
+
+
 .foot{
   background-color: rgba(0,0,0,0.6)!important;
   color:white;
+}
+.feat1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+}
+.table1Head{
+  font-family: 'Days One', sans-serif !important;
+  font-size:2.4vh!important;
+  margin-top: 5vh!important;
+  margin-bottom: 3vh!important;
+}
+table.highlight tbody tr:hover {
+    background-color: #e3e6ea !important;
+}
+.thead1{
+  background-color: #002e7a!important;
+  color: white;
+  font-weight: bold;
+}
+.th1{
+  background-color: #e3e6ea!important;
+}
+.usp1{
+  margin-top: 2vh!important;
+}
+.usp1Head{
+  font-family: 'Days One', sans-serif !important;
+  font-size:2.4vh!important;
+  margin-top: 8vh!important;
+}
+.card_usp{
+
+  width: 100%!important;
+  margin:0px!important;
+  padding: none!important;
+}
+.card_usp:hover{
+  /* transform: scale(1.01); */
+  transition: 0.4s;
+  background-color: #f4f5f7!important;
+}
+li {
+  padding: 0.5vh!important;
+  font-family: 'Montserrat', sans-serif!important;
+  font-size: 1.8vh!important;
+}
+.table2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  width: 100%!important;
+}
+.table-responsive{
+  /* display:inline!important; */
+  /* width: 19830px!important; */
+}
+.thead2{
+  background-color: #b71203!important;
+  color: white;
+  font-weight: bold;
+  /* width: 100vh!important; */
+}
+.th2{
+  background-color: #e3e6ea!important;
+}
+
+/* Product 2 css -----------------------------*/
+.c1b,.c2b,.c3b,.c4b{
+  -moz-box-shadow:    20px 30px 30px #bab9b8!important;
+  -webkit-box-shadow:  20px 30px 30px #bab9b8!important;
+  box-shadow:          20px 30px 30px #bab9b8!important;
+    height:30vh!important;
+}
+.c1b:hover,.c2b:hover,.c3b:hover,.c4b:hover{
+  /* font-size: 2.1vh; */
+  cursor: pointer;
+  -moz-box-shadow:    30px 30px 30px #bab9b8;
+  -webkit-box-shadow:  30px 30px 30px #bab9b8;
+  box-shadow:          30px 30px 30px #bab9b8;
+  transform: scale(1.12);
+  transition: 0.5s;
+
+}
+.c1b{
+  background-image: url("../images/vms1.jpg");
+  /* background-attachment: fixed; */
+  background-size: contain;
+  background-size: cover;
+}
+.c2b{
+  background-image: url("../images/vms2.jpeg");
+  background-size: contain;
+  background-size: cover;
+}
+.c3b{
+  background-image: url("../images/vms3.jpg");
+  background-size: contain;
+  background-size: cover;
+}
+.c4b{
+  background-image: url("../images/vms4.jpg");
+  background-size: contain;
+    background-size: cover;
+}
+
+.pagefooter{
+  margin-top:5vh!important;
+  
 }
