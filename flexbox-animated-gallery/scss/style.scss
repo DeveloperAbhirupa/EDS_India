@@ -16,7 +16,7 @@ body {
 
 .gallery {
   display: flex;
-
+  
   .item {
     opacity: 0.6;
     overflow: hidden;
@@ -25,12 +25,12 @@ body {
     // width: 500px;
     flex: 500px 1 1;
     transition: all 0.5s ease-in;
-
+      
     &:hover {
-      flex: 1500px 3 3;
+      flex: 1500px 3 3;    
       opacity: 1;
     }
-
+    
     span {
       background: #333 30% 70% no-repeat;
       display: block;

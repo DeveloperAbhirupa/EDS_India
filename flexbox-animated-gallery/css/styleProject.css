@@ -8,7 +8,6 @@ Images
 # https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=61282cfeed75871385c84c2a44a8e594&w=1000
 
 */
-
 body {
   background: #121212;
   padding: 40px 20px;
@@ -16,25 +15,21 @@ body {
 
 .gallery {
   display: flex;
-
-  .item {
-    opacity: 0.6;
-    overflow: hidden;
-    margin: 20px;
-    position: relative;
-    // width: 500px;
-    flex: 500px 1 1;
-    transition: all 0.5s ease-in;
-
-    &:hover {
-      flex: 1500px 3 3;
-      opacity: 1;
-    }
-
-    span {
-      background: #333 30% 70% no-repeat;
-      display: block;
-      height: 250px;
-    }
-  }
+}
+.gallery .item {
+  opacity: 0.6;
+  overflow: hidden;
+  margin: 20px;
+  position: relative;
+  flex: 500px 1 1;
+  transition: all 0.5s ease-in;
+}
+.gallery .item:hover {
+  flex: 1500px 3 3;
+  opacity: 1;
+}
+.gallery .item span {
+  background: #333 30% 70% no-repeat;
+  display: block;
+  height: 250px;
 }
