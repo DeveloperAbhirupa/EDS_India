@@ -40,11 +40,16 @@ a span{
   display: flex;
   align-items: center;
 }
-
+.post-body{
+  background-color: rgba(0,0,0,0.5);
+}
 .level-right {
   text-align: right;
 }
-
+.postCont{
+  /* background-color: black; */
+  padding: 0!important;
+}
 .posts .container-wide {
   display: flex;
   flex-wrap: wrap;
