@@ -1,5 +1,7 @@
 body{
  overflow-x: hidden !important;
+ background-image: url(../images/bg.jpg)!important;
+ background-attachment: fixed;
 }
 #navbar{
   background-color: rgba(0,0,0) !important;
@@ -13,7 +15,42 @@ a span{
   color:#FFFFFF !important;
 }
 /* ----------------------------------------------------------- */
-
+.content{
+  top:15vh;
+  height: 140vh!important;
+}
+.post{
+  background-color: rgba(255,255,255,0.3)!important;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
+  width:90vh!important;
+  padding:1vh;
+  margin-bottom: 5vh;
+  /* border-radius: 2vh!important; */
+}
+.apply{
+  background-color: white!important;
+}
+.img{
+  height: 100%!important;
+  /* background-color: red; */
+  background-image: url('../images/career.jpg');
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+/* background-size: cover; */
+}
+.cont{
+  height: 100%;
+}
+.head{
+  margin-top: 15vh;
+  color:white;
+  font-size: 5vh;
+  font-family: 'Days One', sans-serif !important;
+}
 /* ----------------------- */
 .pagefooter{
   background-color: black;
