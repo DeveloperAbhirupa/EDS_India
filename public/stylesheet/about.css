@@ -32,9 +32,39 @@ a span{
 }
 .r0{
   padding-top: 30vh!important;
+  padding-bottom: 15vh!important;
   color: white;
 }
 .cont{
-  background-image: url('/home/abhirupa/Documents/Folder E/Github/EDS_India/public/images/bg.jpg');
+  background-color: #1d1d1e;
   background-attachment: fixed;
+}
+.panel1,.panel2,.panel3{
+
+  margin-left: 0!important;
+  margin-right: 0!important;
+  width: 200vh!important;
+  height: 20vh;
+}
+.panel1:hover,.panel2:hover,.panel3:hover{
+  transform: scale3d(1.8);
+  transition: 1s;
+}
+.panel1{
+  background-image: url("../images/pan1.jpg");
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+.panel2{
+  background-image: url("../images/pan2.jpg");
+  background-attachment: fixed;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+}
+.panel3{
+  background-image: url("../images/pan3.jpg");
+  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-position: center; */
 }
