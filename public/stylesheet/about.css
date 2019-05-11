@@ -1,8 +1,9 @@
 body{
  overflow-x: hidden !important;
 }
+
 #navbar{
-  background-color: rgba(0,0,0) !important;
+  background-color: rgba(0,0,0,1) !important;
   color:white!important;
   font-family: 'Montserrat', sans-serif;
 }
@@ -12,6 +13,57 @@ a{
 a span{
   color:#FFFFFF !important;
 }
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+  background-image: url('../images/pan1.jpg');
+  background-size: cover;
+  background-attachment:fixed;
+}
+.navUl{
+  padding-right::
+}
+
+.main-text {
+  color:white!important;
+  font-family: 'Montserrat', sans-serif!important;
+    position: absolute;
+    top: 20vh;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.team{
+  margin-top: 20vh;
+}
+/* .slide1{
+  background-image: url('../images/pcb3.jpg');
+   background-attachment: fixed;
+}
+.slide2{
+  background-image: url('../images/car.jpg');
+   background-attachment: fixed;
+}
+.slide3{
+  background-image: url('../images/rail.jpg');
+   background-attachment: fixed;
+} */
+.lead{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.6vh!important;
+}
+
+.foot{
+  background-color: rgba(0,0,0,0.6)!important;
+  color:white;
+}
+
 .pagefooter{
   background-color: black;
   font-family: 'Montserrat', sans-serif;
@@ -22,49 +74,4 @@ a span{
 }
 .copyright{
   margin-top: 10vh;
-}
-/* --------------------------------------- */
-
-
-.cont,.cont2{
-  font-family: 'Montserrat', sans-serif;
-  font-size:3.0vh!important;
-}
-.r0{
-  padding-top: 30vh!important;
-  padding-bottom: 15vh!important;
-  color: white;
-}
-.cont{
-  background-color: #1d1d1e;
-  background-attachment: fixed;
-}
-.panel1,.panel2,.panel3{
-
-  margin-left: 0!important;
-  margin-right: 0!important;
-  width: 200vh!important;
-  height: 20vh;
-}
-.panel1:hover,.panel2:hover,.panel3:hover{
-  transform: scale3d(1.8);
-  transition: 1s;
-}
-.panel1{
-  background-image: url("../images/pan1.jpg");
-  background-attachment: fixed;
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-}
-.panel2{
-  background-image: url("../images/pan2.jpg");
-  background-attachment: fixed;
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-}
-.panel3{
-  background-image: url("../images/pan3.jpg");
-  background-attachment: fixed;
-  /* background-repeat: no-repeat;
-  background-position: center; */
 }
