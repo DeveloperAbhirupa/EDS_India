@@ -32,6 +32,9 @@ a span{
 .apply{
   background-color: white!important;
 }
+
+
+
 .img{
   height: 100%!important;
   /* background-color: red; */
@@ -40,6 +43,7 @@ a span{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
 /* background-size: cover; */
 }
 .cont{

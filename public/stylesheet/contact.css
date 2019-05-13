@@ -19,6 +19,12 @@ a span{
   top:15vh;
   height: 140vh!important;
 }
+.address{
+  padding-left:45vh!important;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2vh;
+}
 
 .img{
   height: 100%!important;
