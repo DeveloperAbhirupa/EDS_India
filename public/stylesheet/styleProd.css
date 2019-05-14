@@ -89,13 +89,22 @@ a span{
   background-size: contain;
     background-size: cover;
 }
-
+.modal{
+  background-color: rgba(0,0,0,0.6)!important;
+}
+.modal-body{
+  color: white!important;
+}
+.modal-content{
+  background-color: black!important;
+}
 
 .foot{
   background-color: rgba(0,0,0,0.6)!important;
   color:white;
 }
 .feat1{
+  color: white!important;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
 }
@@ -106,15 +115,34 @@ a span{
   margin-bottom: 3vh!important; */
 }
 table.highlight tbody tr:hover {
-    background-color: #e3e6ea !important;
+    background-color: #313133 !important;
 }
 .thead1{
   background-color: #002e7a!important;
-  color: white;
+  color: white!important;
   font-weight: bold;
 }
+.x{
+  color: white!important;
+}
+.clickH{
+  color: white;font-family: 'Montserrat', sans-serif;
+  font-size:3.0vh!important;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.clickH:hover{
+  cursor: pointer;
+  text-decoration: underline!important;
+}
 .th1{
-  background-color: #e3e6ea!important;
+  background-color: #202021!important;
+}
+tr{
+  color:white!important;
+}
+.table1{
+  color: white!important;
 }
 .usp1{
   /* background-color: red!important; */
