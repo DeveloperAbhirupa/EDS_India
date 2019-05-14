@@ -21,8 +21,9 @@
 
       <!-- Javascripts -->
       <!-- Compiled and minified JavaScript -->
+      <script  src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
       <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
@@ -87,7 +88,7 @@
       <div class="row">
 
         <div class="col-sm-3">
-          <div class="card c1">
+          <div class="card c1" data-toggle="modal" data-target="#exampleModal">
             <div class="card-body">
 
             </div>
@@ -100,11 +101,11 @@
 
 
         <div class="col-sm-3">
-          <div class="card c2">
+          <div class="card c2" data-toggle="modal" data-target="#modal2">
             <div class="card-body">
 
             </div>
-            <div class="card-footer foot">
+            <div class="card-footer foot" >
               P10 INDOOR <br>
               Railway Station
             </div>
@@ -112,7 +113,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card c3">
+          <div class="card c3" data-toggle="modal" data-target="#modal3">
             <div class="card-body">
 
             </div>
@@ -123,7 +124,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="card c4">
+          <div class="card c4" data-toggle="modal" data-target="#modal4">
             <div class="card-body">
 
             </div>
@@ -144,23 +145,386 @@
     <div class="col-sm-1"></div>
   </div>
 <!-- END OF FLEXBOX GALLERY -->
-<!-- Button trigger modal -->
-<!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
-  <!-- Modal Structure -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+<!-- --------------------------------------MODAL TABLE 1-------------------------------------- -->
+<!-- Modal -->
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modaltab1" role="document">
+    <div class="modal-content modCont1">
+      <div class="modal-header">
+        <div class="table1Head container" align="left"><b>Features</b></div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="container feat1" align="center">
+          <table class="table highlight">
+                    <thead class="thead1">
+                      <tr>
+                        <th>Parameters</th>
+                        <th>P10 Indoor</th>
+                </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                <th class="th1">Pixel Pitch</th>
+                        <td>10</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Density</th>
+                        <td>10000</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Configuration</th>
+                        <td>3-In-1 RGB SMD</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">LED Life</th>
+                        <td>HOUR</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Dimension (mm)</th>
+                        <td>960 x 960</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Weight (Kg)</th>
+                        <td>38</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Power Consumption (W) / Module</th>
+                        <td>580</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Input Power</th>
+                        <td>270V AC</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Best Viewing Distance (Feet)</th>
+                        <td>10</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Viewing Angle</th>
+                        <td>60°</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Brightness (NIT)</th>
+                        <td>6000</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Operating Temperature</th>
+                        <td>0°C - 70°C</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">IP Grade</th>
+                        <td>IP54(Back)/ IP54(Front)</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Scanning</th>
+                        <td>1:8</td>
+                  </tr>
+              </tbody>
+            </table>
+        </div>
+
+
+      </div>
+      </div>
     </div>
   </div>
+</div>
+<!-- --------------------------------------MODAL TABLE 1 END-------------------------------------- -->
 
 
-<div class="table1Head container" align="left"><b>Features</b></div>
+
+
+
+
+<!-- ----------------------------------------MODAL TABLE 2------------------------------------------- -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modaltab1" role="document">
+    <div class="modal-content modCont1">
+      <div class="modal-header">
+        <div class="table1Head container" align="left"><b>Features</b></div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="container feat1" align="center">
+          <table class="table highlight">
+                    <thead class="thead1">
+                      <tr>
+                        <th>Parameters</th>
+                        <th>P6 Indoor</th>
+                </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                <th class="th1">Pixel Pitch</th>
+                        <td>6</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Density</th>
+                        <td>27556</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Configuration</th>
+                        <td>3-In-1 RGB SMD</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">LED Life</th>
+                        <td></td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Dimension (mm)</th>
+                        <td>768 x 576</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Weight (Kg)</th>
+                        <td>26</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Power Consumption (W) / Module</th>
+                        <td>450</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Input Power</th>
+                        <td></td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Best Viewing Distance (Feet)</th>
+                        <td>6</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Viewing Angle</th>
+                        <td>Vertical</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Brightness (NIT)</th>
+                        <td>2500</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Operating Temperature</th>
+                        <td>0°C - 70°C</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">IP Grade</th>
+                        <td>IP65(Back)/ IP65(Front)</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Scanning</th>
+                        <td>1:16</td>
+                  </tr>
+              </tbody>
+            </table>
+        </div>
+
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ----------------------------------------MODAL TABLE 2 END------------------------------------------- -->
+
+
+
+
+<!-- --------------------------------------MODAL- table 3----------------------------------------- -->
+
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modaltab1" role="document">
+    <div class="modal-content modCont1">
+      <div class="modal-header">
+        <div class="table1Head container" align="left"><b>Features</b></div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="container feat1" align="center">
+          <table class="table highlight">
+                    <thead class="thead1">
+                      <tr>
+                        <th>Parameters</th>
+                        <th>P10 Indoor</th>
+                </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                <th class="th1">Pixel Pitch</th>
+                        <td>10</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Density</th>
+                        <td>10000</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Configuration</th>
+                        <td>3-In-1 RGB SMD</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">LED Life</th>
+                        <td>HOUR</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Dimension (mm)</th>
+                        <td>960 x 960</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Weight (Kg)</th>
+                        <td>38</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Power Consumption (W) / Module</th>
+                        <td>580</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Input Power</th>
+                        <td>270V AC</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Best Viewing Distance (Feet)</th>
+                        <td>10</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Viewing Angle</th>
+                        <td>60°</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Brightness (NIT)</th>
+                        <td>6000</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Operating Temperature</th>
+                        <td>0°C - 70°C</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">IP Grade</th>
+                        <td>IP54(Back)/ IP54(Front)</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Scanning</th>
+                        <td>1:8</td>
+                  </tr>
+              </tbody>
+            </table>
+        </div>
+
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- --------------------------------------MODAL table 3 end-------------------------------------------- -->
+
+
+
+
+
+<!-- -------------------------------------------modal table 4-------------------------------------------------- -->
+<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modaltab1" role="document">
+    <div class="modal-content modCont1">
+      <div class="modal-header">
+        <div class="table1Head container" align="left"><b>Features</b></div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="container feat1" align="center">
+          <table class="table highlight">
+                    <thead class="thead1">
+                      <tr>
+                        <th>Parameters</th>
+                        <th>P10 Indoor</th>
+                </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                <th class="th1">Pixel Pitch</th>
+                        <td>10</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Density</th>
+                        <td>10000</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Pixel Configuration</th>
+                        <td>3-In-1 RGB SMD</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">LED Life</th>
+                        <td>HOUR</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Dimension (mm)</th>
+                        <td>960 x 960</td>
+                  </tr>
+                  <tr>
+                        <th class="th1">Module Weight (Kg)</th>
+                        <td>38</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Power Consumption (W) / Module</th>
+                        <td>580</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Input Power</th>
+                        <td>270V AC</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Best Viewing Distance (Feet)</th>
+                        <td>10</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Viewing Angle</th>
+                        <td>60°</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Brightness (NIT)</th>
+                        <td>6000</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Operating Temperature</th>
+                        <td>0°C - 70°C</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">IP Grade</th>
+                        <td>IP54(Back)/ IP54(Front)</td>
+                  </tr>
+                  <tr>
+                      <th class="th1">Scanning</th>
+                        <td>1:8</td>
+                  </tr>
+              </tbody>
+            </table>
+        </div>
+
+
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ----------------------------------------------modal table end-------------------------------------------------- -->
+
+
+
+
+
+
+
+
+
+<!-- <div class="table1Head container" align="left"><b>Features</b></div>
 <div class="container feat1" align="center">
   <table class="table1 table-responsive highlight">
             <thead class="thead1">
@@ -275,12 +639,12 @@
       </tr>
             </tbody>
           </table>
-</div>
+</div> -->
 
 <!-- Device USP -->
-<div class="usp1Head container">Universal Selling Point</div>
-<div class="usp1 container">
-  <div class="row">
+<div class="usp1Head container-fluid">Universal Selling Point</div>
+<div class="usp1 container-fluid">
+  <div class="row r0">
      <div class="card card_usp">
        <div class="card-content">
 
@@ -298,10 +662,11 @@
       </div>
    </div>
  </div>
- <div class="table1Head container" align="left"><b>Product Specifications</b></div>
- <div class="container feat2" align="center">
+ <br><br>
+ <div class="table2Head container-fluid" align="left"><b>Product Specifications</b></div><br>
+ <div class="container-fluid feat2" align="center">
    <div>
-            <table class="table2 highlight " style="width: 100%">
+            <table class="table table2 highlight" style="width: 100%">
               <thead class="thead2">
                 <tr>
                   <th>Parameters</th>
@@ -475,8 +840,8 @@
 </div>
 
 <!-- Device USP -->
-<div class="usp1Head container">Universal Selling Point</div>
-<div class="usp1 container">
+<div class="usp1Head container-fluid">Universal Selling Point</div>
+<div class="usp1 container-fluid">
   <div class="row">
      <div class="card card_usp">
        <div class="card-content">
@@ -488,10 +853,8 @@
 					<li>4. Internal System Memory – 1MB, Storage Memory – 16 MB, SRAM – 256 KB</li>
 					<li>5. Remote debugging to diagnose problems remotely.</li>
 					<li>6. Smart self diagnostic feature.</li>
-					<li>7. Remote control for display ON/OFF.</li>
 					<li>8. FOTA (firmware updating via GPRS).</li>
 					<li>9. Can pick images/data from any TCP/HTTP/FTP servers via LAN / Wi-Fi / GPRS.</li>
-					<li>10. Multiple display effects.</li>
 					<li>11. Auto / manual paging.</li>
 					<li>12. Directivity – 90°(H) 45° (V)</li>
 					<li>13. Visibility – 50 Meters or more</li>
@@ -503,10 +866,10 @@
       </div>
    </div>
  </div>
- <div class="table1Head container" align="left"><b>Product Specifications</b></div>
- <div class="container feat2" align="center">
+ <div class="table2Head container-fluid" align="left"><b>Product Specifications</b></div><br>
+ <div class="container-fluid feat2" align="center">
    <div>
-     <table class="table2 highlight " style="width: 100%">
+     <table class="table table2 highlight " style="width: 100%">
        <thead class="thead2">
          <tr>
            <th >Parameters</th>
@@ -580,11 +943,12 @@
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').trigger('focus')
 })
+
 </script>
 
 
 <!-- Plugin JavaScript -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
 <script type="text/javascript" src="https://www.jqueryscript.net/demo/jQuery-Waterwheel-Carousel-Plugin/js/jquery.waterwheelCarousel.min.js"></script>
 </head>
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>

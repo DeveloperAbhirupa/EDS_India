@@ -1,5 +1,7 @@
 body{
  overflow-x: hidden !important;
+ background-color: #040505!important;
+ color: white!important;
 }
 #navbar{
   background-color: rgba(0,0,0) !important;
@@ -27,6 +29,9 @@ a span{
 .flexGal{
   margin-top: 10vh !important;
 }
+.r0{
+  background-color: transparent!important;
+}
 .row2{
   margin-top: -5vh;
 }
@@ -39,22 +44,27 @@ a span{
 }
 .feat1Head{
   font-size: 5vh;
+  color: white;
   font-family: 'Days One', sans-serif !important;
   text-align: center;
   margin-top: 15vh;
 }
 .c1,.c2,.c3,.c4{
-  -moz-box-shadow:    20px 30px 30px #bab9b8!important;
+  padding: 0vh!important;
+  margin: 0vh!important;
+  border: 0!important;
+  border-radius: 0!important;
+  /* -moz-box-shadow:    20px 30px 30px #bab9b8!important;
   -webkit-box-shadow:  20px 30px 30px #bab9b8!important;
-  box-shadow:          20px 30px 30px #bab9b8!important;
+  box-shadow:          20px 30px 30px #bab9b8!important; */
 }
 .c1:hover,.c2:hover,.c3:hover,.c4:hover{
   /* font-size: 2.1vh; */
   cursor: pointer;
-  -moz-box-shadow:    30px 30px 30px #bab9b8;
+  /* -moz-box-shadow:    30px 30px 30px #bab9b8;
   -webkit-box-shadow:  30px 30px 30px #bab9b8;
-  box-shadow:          30px 30px 30px #bab9b8;
-  transform: scale(1.12);
+  box-shadow:          30px 30px 30px #bab9b8; */
+  transform: scale(1.05);
   transition: 0.5s;
 
 }
@@ -92,8 +102,8 @@ a span{
 .table1Head{
   font-family: 'Days One', sans-serif !important;
   font-size:2.4vh!important;
-  margin-top: 5vh!important;
-  margin-bottom: 3vh!important;
+  /* margin-top: 5vh!important;
+  margin-bottom: 3vh!important; */
 }
 table.highlight tbody tr:hover {
     background-color: #e3e6ea !important;
@@ -107,15 +117,22 @@ table.highlight tbody tr:hover {
   background-color: #e3e6ea!important;
 }
 .usp1{
+  /* background-color: red!important; */
+  width:170vh!important;
+
   margin-top: 2vh!important;
 }
 .usp1Head{
   font-family: 'Days One', sans-serif !important;
-  font-size:2.4vh!important;
+  font-size:3.0vh!important;
   margin-top: 8vh!important;
+  width:170vh!important;
 }
 .card_usp{
-
+  outline: 2px dashed blue;
+  padding: 2vh!important;
+  background-color: #040505!important;
+  font-size: 2.6vh!important;
   width: 100%!important;
   margin:0px!important;
   padding: none!important;
@@ -123,17 +140,19 @@ table.highlight tbody tr:hover {
 .card_usp:hover{
   /* transform: scale(1.01); */
   transition: 0.4s;
-  background-color: #f4f5f7!important;
+  /* background-color: #f4f5f7!important; */
 }
 li {
   padding: 0.5vh!important;
   font-family: 'Montserrat', sans-serif!important;
-  font-size: 1.8vh!important;
+  /* font-size: 1.8vh!important; */
 }
 .table2{
   font-family: 'Montserrat', sans-serif;
-  font-size:2.0vh!important;
+  font-size:2.5vh!important;
   width: 100%!important;
+  color: white!important;
+
 }
 .table-responsive{
   /* display:inline!important; */
@@ -146,23 +165,23 @@ li {
   /* width: 100vh!important; */
 }
 .th2{
-  background-color: #e3e6ea!important;
+  background-color: #242828!important;
 }
 
 /* Product 2 css -----------------------------*/
 .c1b,.c2b,.c3b,.c4b{
-  -moz-box-shadow:    20px 30px 30px #bab9b8!important;
+  /* -moz-box-shadow:    20px 30px 30px #bab9b8!important;
   -webkit-box-shadow:  20px 30px 30px #bab9b8!important;
-  box-shadow:          20px 30px 30px #bab9b8!important;
+  box-shadow:          20px 30px 30px #bab9b8!important; */
     height:30vh!important;
 }
 .c1b:hover,.c2b:hover,.c3b:hover,.c4b:hover{
   /* font-size: 2.1vh; */
   cursor: pointer;
-  -moz-box-shadow:    30px 30px 30px #bab9b8;
+  /* -moz-box-shadow:    30px 30px 30px #bab9b8;
   -webkit-box-shadow:  30px 30px 30px #bab9b8;
-  box-shadow:          30px 30px 30px #bab9b8;
-  transform: scale(1.12);
+  box-shadow:          30px 30px 30px #bab9b8; */
+  transform: scale(1.05);
   transition: 0.5s;
 
 }
@@ -187,8 +206,30 @@ li {
   background-size: contain;
     background-size: cover;
 }
+.table2Head{
+  margin-top: 10vh!important;
+  width: 170vh!important;
+  font-family: 'Days One', sans-serif !important;
+  font-size:3.4vh!important;
+}
+.feat2{
+  width: 170vh!important;
+}
 
 .pagefooter{
   margin-top:5vh!important;
-  
+
+}
+/* ----------------modal styles----------- */
+.modaltab1{
+  margin-top: 10vh!important;
+  height: 85vh!important;
+}
+tr{
+  padding: 2vh!important;
+}
+.modCont1{
+  height: 88vh!important;
+  width: 60vh!important;
+  overflow-x: hidden!important;
 }

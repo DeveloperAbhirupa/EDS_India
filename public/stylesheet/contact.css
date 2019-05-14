@@ -15,9 +15,34 @@ a span{
   color:#FFFFFF !important;
 }
 /* ----------------------------------------------------------- */
+.form0{
+  padding:2vh;
+  padding-left:30vh!important;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2vh;
+  /* width: 50vh!important; */
+}
+.formSpree{
+  /* width:90vh!important; */
+}
+.cont{
+  text-align: center!important;
+}
+.content{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2vh;
+}
+.inp{
+  margin-bottom: 20px;
+  padding: 0.6vh!important;
+  border-radius: 10px;
+  width:70vh!important;
+}
 .content{
   top:15vh;
-  height: 140vh!important;
+  height: 100vh!important;
 }
 .address{
   padding-left:45vh!important;
@@ -46,6 +71,8 @@ a span{
   font-family: 'Days One', sans-serif !important;
 }
 /* ----------------------- */
+
+/* ----------------------------- */
 .pagefooter{
   background-color: black;
   font-family: 'Montserrat', sans-serif;
