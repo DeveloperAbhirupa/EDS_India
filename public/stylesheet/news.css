@@ -103,6 +103,18 @@ a span{
   transition: 4s!important;
 }
 
+.dropdown:hover{
+  cursor: pointer!important;
+}
+.dropdown-item:hover{
+  background-color: grey!important;
+}
+
+
+.dropdown-menu{
+  background-color: black!important;
+  color: black!important;
+}
 .post-meta {
   font-size: 10px;
   color: #222;
