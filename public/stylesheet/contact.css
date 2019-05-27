@@ -54,12 +54,17 @@ a span{
 .img{
   height: 100%!important;
   /* background-color: red; */
-  background-image: url('../images/contact2.jpg');
+  /* background-image: url('../images/contact2.jpg'); */
   /* background-attachment: fixed; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 /* background-size: cover; */
+}
+#gmap{
+  margin-top: 10vh!important;
+  height: 90%!important;
+  width: 100%!important;
 }
 .cont{
   height: 100%;
