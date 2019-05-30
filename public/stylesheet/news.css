@@ -8,6 +8,7 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif!important   ;
   color: white!important
   background: #FFFFFF!important;
   /* padding: 40px 20p  ; */
@@ -60,16 +61,21 @@ a span{
   transition: 0.5s;
   padding-top: 60px;
 }
-
+.sidenav a:hover{
+  text-decoration: none;
+  color: red!important;
+}
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2vh!important;
   color: #818181;
   display: block;
   transition: 0.3s;
 }
-
+h1{
+  font-family: 'Righteous', cursive!important;
+}
 /* .sidenav a:hover {
   color: #f1f1f1;
 }
@@ -84,5 +90,5 @@ a span{
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav a {font-size: 4vh;}
 }
