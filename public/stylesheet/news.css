@@ -47,23 +47,35 @@ a span{
 }/* The side navigation menu */
 
 
-
+.news{
+  padding: 4vh!important;
+  margin-left: 40vh!important;
+  /* margin-right: 100vh!important */
+  width: 150vh!important;
+}
+.content{
+   font-size: 2.2vh!important;
+}
 .sidenav {
   margin-top:7vh!important;
   height: 100%;
-  width: 0;
+  width: 40vh!important;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-image:url("../images/newsbg4.jpg");
+  background-position: center;
+  /* po */
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
 }
 .sidenav a:hover{
   text-decoration: none;
-  color: red!important;
+  font-weight: bold;
+  cursor: pointer;
+  /* transition: 0.8s!important; */
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
