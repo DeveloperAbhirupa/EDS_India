@@ -77,20 +77,12 @@ header{
 
 
 /* ---------changes--------- */
-.main{
 
-}
-.c0{
-  background-color: #fff3db!important;
-}
-.c1{
-  background-color:#f7ffd3!important;
-}
-.c2{
-  background-color: #edf9ff!important;
+.c0,.c1,.c2{
+  background-color: rgba(0,0,0,0.2)!important;
 }
 .card{
-  box-shadow: 1vh 2px 2px #e8e7e5;
+  /* box-shadow: 1vh 2px 2px #e8e7e5; */
   border:1px solid black!important;
   border-radius: 0px!important;
   margin-top: 5vh!important;
@@ -111,7 +103,7 @@ header{
   top: 50%; */
 }
 .contMain0{
-  margin-top: 5vh!important;
+
   font-family: 'Righteous', cursive!important;
   font-size: 15vh!important;
   background-image: url("../images/pan3.jpg");
@@ -134,10 +126,26 @@ header{
 }
 .about_content{
   padding-top: 10vh;
-  font-weight: bold;
+  padding-left: 7vh;
+  padding-right: 7vh;
+  /* font-weight: bold; */
   font-family: 'Montserrat', sans-serif;
   font-size:2.2vh!important;
 }
+.mem1{
+  padding:5vh!important;
+}
+.top_main{
+  padding-bottom:  5vh!important;
+  background-image: linear-gradient( #000000, #6390a0);
+  color:white;
+}
+.team{
+  margin-top: 0vh!important;
+  background-image: linear-gradient(#6390a0, #000000);
+  color: white!important;
+}
+
 .center {
   padding: 100px 0;
   flex: auto;
@@ -147,7 +155,7 @@ header{
 /* ---------changes--------- */
 
 .foot{
-  background-color: rgba(0,0,0,0.6)!important;
+  /* background-color: rgba(0,0,0,0.6)!important; */
   color:white;
 }
 
@@ -160,7 +168,7 @@ header{
 
 }
 .copyright{
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
 }
 
 /* -------------cards-------------- */
