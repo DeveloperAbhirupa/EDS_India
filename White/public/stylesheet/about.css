@@ -105,7 +105,7 @@ header{
 .contMain0{
 
   font-family: 'Righteous', cursive!important;
-  font-size: 15vh!important;
+  font-size: 12vh!important;
   background-image: url("../images/pan3.jpg");
   background-position: center;
   padding-left: 0vh!important;
@@ -137,13 +137,13 @@ header{
 }
 .top_main{
   padding-bottom:  5vh!important;
-  background-image: linear-gradient( #000000, #6390a0);
-  color:white;
+  background-image: linear-gradient( #a9c4ce, #FFFFFF);
+  color:black;
 }
 .team{
   margin-top: 0vh!important;
-  background-image: linear-gradient(#6390a0, #000000);
-  color: white!important;
+  background-image: linear-gradient(#FFFFFF, #a9c4ce);
+  color:black!important;
 }
 
 .center {
@@ -171,4 +171,13 @@ header{
   /* margin-top: 10vh; */
 }
 
-/* -------------cards-------------- */
+/* -------------media queries-------------- */
+
+@media screen and (max-width: 600px) {
+  .contMain{
+    height: 100vh!important;
+  }
+  .contMain0{
+    height: 40vh!important;
+  }
+}

@@ -60,18 +60,33 @@ a span{
   background-color: black!important;
   color: black!important;
 }
+.contMain{
+  padding-left: 10vh;
+  padding-right: 10vh;
+  font-family: 'Righteous', cursive!important;
+  font-size: 10vh!important;
+  background-color: #161616;
+  background-position: center;
+  padding-left: 0vh!important;
+  padding-right: 0vh!important;
+  color: white!important;
+  height: 20vh!important;
+  /* position: relative;
+  top: 50%; */
+}
 
 .info{
   /* padding:5vh; */
   padding-top: 12vh;
-  background-image: url('../images/whitebg.png');
-  background-position: center;
-  background-attachment: fixed;
-  background: no-repeat;
+
+   background-image: linear-gradient(#161616, #FFFFFF)!important;
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+  /* background: no-repeat; */
   /* background-color: #020202!important; */
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 /* .info:hover{
   cursor: pointer;
@@ -92,6 +107,7 @@ a span{
   background: none;
   height: 57vh;
   width:35vh;
+
 }
 
 .c1{
@@ -275,5 +291,11 @@ color:black;
     height:40vh!important;
     width:auto;
   }
+  .col-sm-3{
+    padding-bottom:2vh!important;
+  }
 
+  .wwdHead{
+    margin-top: 25vh!important;
+  }
 }
