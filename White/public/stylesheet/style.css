@@ -16,6 +16,7 @@ a span{
 .carousel-item {
   height: 100vh;
   min-height: 350px;
+  width: auto;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,9 +26,9 @@ a span{
 .navUl{
   padding-right::
 }
-#slide1logo{
+#slide1logo,#slide2logo,#slide3logo{
   margin-top: -70vh;
-  height:50vh;
+  height:50vh!important;
   width:auto;
 }
 .slide1{
@@ -63,7 +64,10 @@ a span{
 .info{
   /* padding:5vh; */
   padding-top: 12vh;
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/whitebg.png');
+  background-position: center;
+  background-attachment: fixed;
+  background: no-repeat;
   /* background-color: #020202!important; */
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
@@ -131,10 +135,17 @@ a span{
 .wwdHead{
   font-size: 5vh;
   font-family: 'Days One', sans-serif !important;
-  color: white;
+  color: black;
   text-align: center;
 }
-.card:hover{
+#slide1logo,#slide2logo, #slide3logo  {
+  max-width: 100%;
+   height: auto;
+}
+#slide1logo{
+  /* padding-top: 10vh; */
+}
+.hover-active:hover{
   /* font-size: 2.1vh; */
   cursor: pointer;
   /* -moz-box-shadow:    30px 30px 30px #bab9b8;
@@ -154,7 +165,7 @@ a span{
 }
 .cont2a{
   margin-top: 10vh;
-  color: white;
+  color: black;
   font-family: 'Days One', sans-serif !important;
   font-size: 8vh!important;
 }
@@ -163,19 +174,19 @@ a span{
   color: white;
 }
 .cont2c{
-color: white;
+color:black;
   margin-top: 18vh;
   font-size: 5vh;
     font-family: 'Days One', sans-serif !important;
-    margin-bottom: 10vh;
+    /* margin-bottom: 10vh; */
 }
 .cont2d{
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: black;
   font-size:2.0vh!important;
   /* padding-left: 10vh; */
   padding-right: 10vh;
-  margin-bottom: 20vh;
+  /* margin-bottom: 20vh; */
 }
 
 #type{
@@ -198,13 +209,13 @@ color: white;
 }
 #about{
   padding-top:45vh;
-  color: white;
+  color: black;
   font-size: 5vh;
   font-family: 'Days One', sans-serif !important;
   text-align: center;
 }
 .about_content{
-  color: white;
+  color: black;
   margin-top: 5vh;
   /* padding-right: 5vh; */
   font-family: 'Montserrat', sans-serif;
@@ -219,7 +230,7 @@ color: white;
   margin-top: 15vh;
 }
 .typing{
-  color: white;
+  color: black;
 }
 .clt0{
   padding:3vh;
@@ -255,4 +266,14 @@ color: white;
 }
 .partners{
   padding-right: 10vh!important;
+}
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  #slide1logo,#slide2logo,#slide3logo{
+    margin-top: 0vh !important;
+    height:40vh!important;
+    width:auto;
+  }
+
 }

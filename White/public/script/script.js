@@ -82,3 +82,21 @@ window.onload = function() {
 //
 //
 //   });
+
+(function () {
+    'use strict';
+
+    if (!('addEventListener' in window)) {
+        return;
+    }
+
+    var htmlElement = document.querySelector('.hover-active');
+
+    function touchStart () {
+        htmlElement.classList.remove('hover-active');
+
+        htmlElement.removeEventListener('touchstart', touchStart);
+    }
+
+    htmlElement.addEventListener('touchstart', touchStart);
+}());
