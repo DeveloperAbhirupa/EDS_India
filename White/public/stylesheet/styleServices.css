@@ -4,7 +4,7 @@ body{
 
 #navbar{
 
-  background-color: rgba(0,0,0,0.7) !important;
+  background-color: rgba(0,0,0,1) !important;
   color:white!important;
   font-family: 'Montserrat', sans-serif;
 }
@@ -14,8 +14,6 @@ a{
 a span{
   color:#FFFFFF !important;
 }
-
-
 
 
 .dropdown:hover{
@@ -63,4 +61,15 @@ a span{
   font-size:4.5vh!important;
   color: white;
   text-shadow: 2px 2px black;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 0.5vh!important;
+    margin-left:0px;
+    writing-mode: vertical-lr;
+   text-orientation: upright;
+  }
 }
