@@ -1,6 +1,6 @@
 body{
  overflow-x: hidden !important;
- background-color: #040505!important;
+ background-color: white
  color: white!important;
 }
 #navbar{
@@ -44,7 +44,7 @@ a span{
 }
 .feat1Head{
   font-size: 5vh;
-  color: white;
+  color: black;
   font-family: 'Days One', sans-serif !important;
   text-align: center;
   margin-top: 15vh;
@@ -100,13 +100,13 @@ a span{
     background-size: cover;
 }
 .modal{
-  background-color: rgba(0,0,0,0.6)!important;
+  background-color: rgba(255,255,255,0.5)!important;
 }
 .modal-body{
   color: white!important;
 }
 .modal-content{
-  background-color: black!important;
+  background-color: rgba(255,255,255,1.0)!important;
 }
 
 .foot{
@@ -125,10 +125,10 @@ a span{
   margin-bottom: 3vh!important; */
 }
 table.highlight tbody tr:hover {
-    background-color: #313133 !important;
+    background-color: #cfd2d6 !important;
 }
 .thead1{
-  background-color: #002e7a!important;
+  background-color: #adccf7!important;
   color: white!important;
   font-weight: bold;
 }
@@ -136,8 +136,9 @@ table.highlight tbody tr:hover {
   color: white!important;
 }
 .clickH{
-  color: white;font-family: 'Montserrat', sans-serif;
-  font-size:3.0vh!important;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.0vh!important;
   margin-top: 10vh;
   margin-bottom: 5vh;
 }
@@ -146,32 +147,37 @@ table.highlight tbody tr:hover {
   text-decoration: underline!important;
 }
 .th1{
-  background-color: #202021!important;
+  background-color: #bbbdbf!important;
 }
 tr{
-  color:white!important;
+  color:black!important;
 }
 .table1{
   color: white!important;
 }
 .usp1{
-  /* background-color: red!important; */
-  width:170vh!important;
+  background-image: linear-gradient(#FFFFFF, #05192d );
+  /* width:170vh!important; */
 
   margin-top: 2vh!important;
+}
+.sec2{
+  background-image: linear-gradient( #05192d, #FFFFFF );
 }
 .usp1Head{
   font-family: 'Days One', sans-serif !important;
   font-size:3.0vh!important;
   margin-top: 8vh!important;
-  width:170vh!important;
+  margin-bottom: 4vh!important;
+  /* width:170vh!important; */
 }
 .card_usp{
+  margin-top: 20vh!important;
   outline: 2px dashed blue;
   padding: 2vh!important;
-  background-color: #040505!important;
+  background-color: rgb(255,255,255,0.4)!important;
   font-size: 2.2vh!important;
-  width: 100%!important;
+  width: 80%!important;
   margin:0px!important;
   padding: none!important;
 }
@@ -197,13 +203,13 @@ li {
   /* width: 19830px!important; */
 }
 .thead2{
-  background-color: #b71203!important;
-  color: white;
+  background-color: #011b3a!important;
+  color: white!important;
   font-weight: bold;
   /* width: 100vh!important; */
 }
 .th2{
-  background-color: #242828!important;
+  background-color: #cfd2d6!important;
 }
 .dropdown-menu{
   background-color: black!important;
@@ -217,6 +223,11 @@ li {
 }
 
 /* Product 2 css -----------------------------*/
+.part2{
+  /* margin-top: -10vh; */
+  padding-top: 15vh;
+}
+
 .c1b,.c2b,.c3b,.c4b{
   margin:0px!important;
   padding: none!important;
@@ -247,6 +258,7 @@ li {
   background-size: cover;
 }
 .table2Head{
+  color:black!important;
   margin-top: 10vh!important;
   width: 170vh!important;
   font-family: 'Days One', sans-serif !important;
@@ -288,4 +300,35 @@ tr{
   height: 58vh!important;
   width: 60vh!important;
   overflow-x: hidden!important;
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    .table2{
+      margin-left: -115vh!important;
+      text-align: left!important;
+      font-family: 'Montserrat', sans-serif;
+      font-size:1.3vh!important;
+      width: 30%!important;
+      color: white!important;
+      scroll-behavior: auto !important;
+      overflow-x: scroll!important;
+
+  }
+  .card_usp{
+    font-size: 1.8vh!important;
+  }
+  .modaltab1, .modaltab2{
+    margin-top: 10vh!important;
+    height: 25vh!important;
+  }
+  tr{
+    padding: 2vh!important;
+  }
+    .modCont1, .modCont2{
+      height: 80vh!important;
+      width: 100%!important;
+    overflow-x: hidden!important;
+  }
 }
