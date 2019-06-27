@@ -46,12 +46,15 @@ a span{
   margin-top: 10vh;
 }/* The side navigation menu */
 
-
+.news0{
+  padding-left: 40vh!important;
+}
 .news{
   padding: 4vh!important;
-  margin-left: 40vh!important;
+  padding-left: 44vh!important;
+  /* margin-right: 20vh!important; */
   /* margin-right: 100vh!important */
-  width: 150vh!important;
+  /* width: 150vh!important; */
 }
 .content{
    font-size: 2.2vh!important;
@@ -88,6 +91,9 @@ a span{
 h1{
   font-family: 'Righteous', cursive!important;
 }
+#c01{
+  margin-top: 12vh!important;
+}
 /* .sidenav a:hover {
   color: #f1f1f1;
 }
@@ -100,7 +106,29 @@ h1{
   margin-left: 50px;
 } */
 
-@media screen and (max-height: 450px) {
+/* @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 4vh;}
+} */
+@media screen and (max-width: 600px) {
+    .sidenav{
+      width: 20vh!important;
+
+    }
+    .sidenav a{
+      padding-left: 1vh!important;
+    }
+    .news{
+      /* margin-left: 18vh!important; */
+      padding-left: 22vh!important;
+    }
+    .content{
+       font-size: 1.6vh!important;
+    }
+    h1{
+      font-size: 2.8vh!important;
+    }
+    #c01{
+      margin-top: 10vh!important;
+    }
 }
