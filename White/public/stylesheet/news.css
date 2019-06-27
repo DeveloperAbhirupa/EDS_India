@@ -32,7 +32,9 @@ a span{
 
 /* ----------------------- */
 .pagefooter{
-  background-color: black;
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
   color: white;
@@ -130,5 +132,8 @@ h1{
     }
     #c01{
       margin-top: 10vh!important;
+    }
+    .pagefooter{
+      font-size: 1.5vh!important;
     }
 }

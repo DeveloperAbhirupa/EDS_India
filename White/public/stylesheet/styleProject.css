@@ -161,6 +161,9 @@ a span{
 
 /* ----------------------------------------------- */
 .pagefooter{
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+  background-position: center;
   margin-top: 10vh;
   background-color: black;
   font-family: 'Montserrat', sans-serif;
@@ -175,6 +178,9 @@ a span{
 @media screen and (max-width: 600px) {
   .item{
     pointer-events: none!important;
+  }
+  .pagefooter{
+    font-size: 1.5vh!important;
   }
   /* .blockHead{
     writing-mode: vertical-lr;

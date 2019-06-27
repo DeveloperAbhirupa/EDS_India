@@ -45,7 +45,9 @@ a span{
 
 .pagefooter{
   /* margin-top: 10vh!important; */
-  background-color: black;
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
   color: white;
@@ -71,5 +73,8 @@ a span{
     margin-left:0px;
     writing-mode: vertical-lr;
    text-orientation: upright;
+  }
+  .pagefooter{
+    font-size: 1.5vh!important;
   }
 }

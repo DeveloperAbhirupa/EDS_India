@@ -15,7 +15,9 @@ a span{
   color:#FFFFFF !important;
 }
 .pagefooter{
-  background-color: black;
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
   color: white;
@@ -331,5 +333,8 @@ tr{
       height: 80vh!important;
       width: 100%!important;
     overflow-x: hidden!important;
+  }
+  .pagefooter{
+    font-size: 1.5vh!important;
   }
 }

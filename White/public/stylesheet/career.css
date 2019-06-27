@@ -1,6 +1,6 @@
 body{
  overflow-x: hidden !important;
- background-image: url(../images/bg.jpg)!important;
+ background-image: linear-gradient(#FFFFFF, #a9c4ce);
  background-attachment: fixed;
 }
 #navbar{
@@ -20,8 +20,8 @@ a span{
   height: 140vh!important;
 }
 .post{
-  background-color: rgba(255,255,255,0.3)!important;
-  color:white;
+  background-color: rgba(0,0,0,0.1)!important;
+  color:black;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
   width:90vh!important;
@@ -62,13 +62,15 @@ a span{
 }
 .head{
   margin-top: 15vh;
-  color:white;
+  color:black;
   font-size: 5vh;
   font-family: 'Days One', sans-serif !important;
 }
 /* ----------------------- */
 .pagefooter{
-  background-color: black;
+  background-image: url('../images/footer.jpg');
+  background-size: cover;
+  background-position: center;
   font-family: 'Montserrat', sans-serif;
   font-size:2.0vh!important;
   color: white;
@@ -77,4 +79,35 @@ a span{
 }
 .copyright{
   margin-top: 10vh;
+}
+
+
+
+
+
+/* ----------------------media queries------------------ */
+@media screen and (max-width: 600px) {
+  .img{
+    display:none!important;
+  }
+  .post{
+    width: auto!important;
+  }
+  .card-header{
+    font-size: 2vh!important;
+  }
+  .card-header h2{
+    font-size: 2.5vh!important;
+    font-weight: bold;
+  }
+  .head{
+    margin-top: 10vh!important;
+    margin-bottom: 2vh!important;
+  }
+  .pagefooter{
+    margin-top: 10vh!important;
+  }
+  .pagefooter{
+    font-size: 1.5vh!important;
+  }
 }
