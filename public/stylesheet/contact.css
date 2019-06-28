@@ -14,6 +14,9 @@ a{
 a span{
   color:#FFFFFF !important;
 }
+.navbar-toggler{
+  color:white!important;
+}
 /* ----------------------------------------------------------- */
 .form0{
   padding:2vh;

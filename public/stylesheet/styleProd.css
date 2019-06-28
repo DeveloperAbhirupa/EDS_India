@@ -14,6 +14,9 @@ a{
 a span{
   color:#FFFFFF !important;
 }
+.navbar-toggler{
+  color:white!important;
+}
 .pagefooter{
   background-image: url('../images/footer.jpg');
   background-size: cover;

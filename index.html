@@ -31,7 +31,7 @@
   <nav id="navbar" class="navbar navbar-expand-lg  fixed-top py-3 order-0" id="mainNav">
 
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="../index.html"><img src="public/images/EDS.png" width="30" height="30" padding-right="10" class="d-inline-block align-top" alt=""><b>EDS-India</b></a>
+        <a class="navbar-brand js-scroll-trigger" onclick="navigate()"><img src="public/images/EDS.png" width="30" height="30" padding-right="10" class="d-inline-block align-top" alt=""><b>EDS-India</b></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         MENU
       </button>
@@ -99,7 +99,7 @@
           <img id="slide2logo" class="img-responsive" src="public/images/logo2.png">
 
           <p class="lead">
-            <button type="button" class="btn etrack btn-primary">Navigate to ETRACK</button><br>
+            <button type="button" href="http://www.etrack-edsindia.in/Default.aspx" class="btn etrack btn-primary">Navigate to ETRACK</button><br>
             We offer professional design services which include hardware and software development, customizable product designs, Systems Engineering and Solutions to assist our end customers grow in this high speed techno-commercial era. </p>
         </div>
       </div>
@@ -390,12 +390,26 @@ concept to the working prototypes. With an average industry experience of over 1
 <div class="clients container-fluid" align="center">
 
   <div class="clientHead" align="center">Our Clients and Partners</div><hr>
-  <marquee>
+  <marquee behavior="alternate">
     <img class="partners" src="public/images/clients/22M.png">
     <img class="partners" src="public/images/clients/AAI.jpg">
     <img class="partners" src="public/images/clients/Court.png">
     <img class="partners" src="public/images/clients/DAT.jpg">
     <img class="partners" src="public/images/clients/EEC.png">
+    <img class="partners" src="public/images/clients/DIMTS.png">
+    <img class="partners" src="public/images/clients/GEM.png">
+    <img class="partners" src="public/images/clients/GVK.jpg">
+    <img class="partners" src="public/images/clients/IDDS.png">
+    <img class="partners" src="public/images/clients/iitm.png">
+    <img class="partners" src="public/images/clients/IR.png">
+    <img class="partners" src="public/images/clients/KMetro.jpg">
+    <img class="partners" src="public/images/clients/lohia.png">
+    <img class="partners" src="public/images/clients/miracle.png">
+    <img class="partners" src="public/images/clients/ML.png">
+    <img class="partners" src="public/images/clients/ndpl.png">
+    <img class="partners" src="public/images/clients/Nippon.jpg">
+    <img class="partners" src="public/images/clients/simpex.jpg">
+    <img class="partners" src="public/images/clients/st.png">
 </marquee>
 </div>
 </div>
@@ -433,10 +447,22 @@ concept to the working prototypes. With an average industry experience of over 1
 <!-- Plugin JavaScript -->
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="https://www.jqueryscript.net/demo/jQuery-Waterwheel-Carousel-Plugin/js/jquery.waterwheelCarousel.min.js"></script>
-</head>
+
 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 <script src="public/script/script.js"></script>
+
+<script>
+function intro(){
+  console.log("Developer: Abhirupa Mitra\nmitra.abhirupa@gmail.com\n9434345464");
+}
+function navigate(){
+  window.location.href ='http://www.etrack-edsindia.in/Default.aspx';
+  console.log("Navigating");
+}
+intro();
+
+</script>
 
 </body>
 </html>

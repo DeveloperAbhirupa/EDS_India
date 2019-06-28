@@ -14,7 +14,9 @@ a{
 a span{
   color:#FFFFFF !important;
 }
-
+.navbar-toggler{
+  color:white!important;
+}
 
 .dropdown:hover{
   cursor: pointer!important;

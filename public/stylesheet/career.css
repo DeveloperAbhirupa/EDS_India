@@ -8,6 +8,9 @@ body{
   color:white!important;
   font-family: 'Montserrat', sans-serif;
 }
+.navbar-toggler{
+  color:white!important;
+}
 a{
   color:#FFFFFF!important;
 }

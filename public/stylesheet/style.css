@@ -13,6 +13,9 @@ a{
 a span{
   color:#FFFFFF !important;
 }
+.navbar-toggler{
+  color:white!important;
+}
 .carousel-item {
   height: 100vh;
   min-height: 350px;
