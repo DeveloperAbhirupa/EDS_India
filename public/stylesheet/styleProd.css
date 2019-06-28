@@ -149,13 +149,13 @@ tr{
   color: white!important;
 }
 .usp1{
-  background-image: linear-gradient(#FFFFFF, #05192d );
+  background-image: linear-gradient(#FFFFFF, #a9c4ce );
   /* width:170vh!important; */
 
   margin-top: 2vh!important;
 }
 .sec2{
-  background-image: linear-gradient( #05192d, #FFFFFF );
+  background-image: linear-gradient( #a9c4ce, #FFFFFF );
 }
 .usp1Head{
   font-family: 'Days One', sans-serif !important;
