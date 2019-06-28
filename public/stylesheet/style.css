@@ -269,6 +269,7 @@ color:black;
 }
 
 .pagefooter{
+  margin-top: 5vh!important;
   background-image: url('../images/footer.jpg');
   background-size: cover;
   background-position: center;
